@@ -1,0 +1,15 @@
+.banner {
+  background-color: #333;
+  color: #fff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding-left: 2rem;
+}
