@@ -1,8 +1,9 @@
 import "./App.css";
 import Banner from "./components/Banner";
-import Card from "./components/Card";
+// import Card from "./components/Card";
 import DisplayIPAddress from "./components/DisplayIPAddress";
 import Exhibit from "./components/Exhibit";
+import LatencyDisplay from "./components/LatencyDisplay";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         {/* <Card /> */}
         <DisplayIPAddress ipType="IPv6" />
       </Exhibit>
+      <LatencyDisplay />
     </div>
   );
 }
