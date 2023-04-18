@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./LatencyDisplay.css";
 import { w3cwebsocket } from "websocket";
 
 const LatencyDisplay = () => {
@@ -19,7 +20,7 @@ const LatencyDisplay = () => {
   }, []);
 
   return (
-    <div>
+    <div className="latencyDisplay">
       <h2>Packet Latency</h2>
       {latency !== null ? <p>{latency}ms</p> : <p>Loading...</p>}
     </div>

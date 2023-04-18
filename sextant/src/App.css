@@ -24,6 +24,13 @@
   color: white;
 }
 
+.cols {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -34,5 +41,11 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 800px) {
+  .row {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
